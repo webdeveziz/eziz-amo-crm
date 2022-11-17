@@ -1,0 +1,96 @@
+
+.header {
+  position: absolute;
+  width: 1140px;
+  height: 73px;
+  left: 150px;
+  top: 46px;
+  color: white;
+}
+
+/* Header logo */
+
+
+.logo{
+position: absolute;
+width: 140px;
+height: 24px;
+left: 0px;
+top: 11px;
+} 
+
+.logoText{
+  position: absolute;
+  width: 165px;
+  height: 24px;
+  left: 0px;
+  top: 45px;
+
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #E4E5EA;
+} 
+
+
+
+/* Header Menu */
+
+.menu {
+  position: absolute;
+  width: 503px;
+  height: 19px;
+  left: 192px;
+  top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .menuLink {
+  width: 54px;
+  height: 19px;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E4E5EA;
+}
+
+
+
+/* Media queries */
+
+@media (max-width: 320px) {
+  .logoContent {
+  display: none;
+  }
+
+.header {
+  position: fixed;
+  width: 319px;
+  height: 55px;
+  left: 0px;
+  top: 0px;  
+  background: #0E1014;
+  z-index: 999;
+}
+
+.menu {
+  position: initial;
+  width: 320px;
+  height: 55px;
+  padding: 5px;
+}
+  
+.menuLink { 
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+  
+}

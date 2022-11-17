@@ -1,0 +1,161 @@
+
+.footer{
+  position: absolute;
+  width: 1141px;
+  height: 315px;
+  left: 149px;
+  bottom: 0px;
+} 
+
+.footerRow{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+
+
+.footerColumn h3{  
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #656566;
+  margin-bottom: 20px;
+} 
+
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerMenu a {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  color: #E4E5EA;
+  text-decoration: none;
+}
+.largeMenu {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.rightColumn{
+  margin-right: 50px;
+}
+
+.address a{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+  color: #E4E5EA;
+}
+.lastColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+      
+}
+.contFooter {
+  margin-bottom: 18px;
+  margin-top: 15px;
+}
+.footerTit {
+  text-align: end;
+}
+.telegram{
+  margin-right: 10px;
+}
+
+.viber{
+  margin-right: 10px;
+}
+
+.whatsapp{
+  margin-right: 0;
+}
+
+.telephone {
+  margin-bottom: 18x;
+}
+
+.footerCopyright {
+  margin-top: 35px;
+  display: flex;
+  justify-content: end;
+}
+
+.footerCopyright div {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footerCopyright a {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #c8c9cc;
+}
+
+.footerCopyright span {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #c8c9cc;
+}
+
+/* Media queries */
+
+@media (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    top: 475px;
+    background: black;
+    width: 320px;
+    padding-left: 32px;
+    height: 640px;
+    padding-top: 30px;
+  }
+  .footerRow{
+    display: flex;
+    flex-direction: column;
+  }
+  .footerTit  {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footerRow{
+    margin-top: 0;
+  }
+  .lastColumn{
+    align-items: start;
+  }
+
+  .footerColumn {
+    margin-top: 30px;
+  }
+  .footerColumn:first-child{
+    margin-top: 0;
+  }
+
+  .footerCopyright, .footerCopyright div{
+    align-items: start;
+    justify-content: start;
+  }
+}

@@ -1,0 +1,180 @@
+
+
+.App {
+  position: relative;
+  background: #0E1014;
+  width: 1440px;
+  height: 980px;
+  margin: auto;
+}
+
+.purple {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 868px;
+  top: -2px;
+}
+
+.redball {
+  position: absolute;
+  width: 83px;
+  height: 83px;
+  left: 519px;
+  top: 83px;
+}
+
+.redballsmall {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 851px;
+  top: 547px;
+}
+
+.light {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  left: 602px;
+  top: -154px;
+  background: #833AB4;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+.maskBig{display: none;}
+.redLight {
+  position: absolute;
+  width: 311px;
+  height: 311px;
+  left: -102px;
+  top: 251px;
+  background: #961A1A;
+  opacity: 0.5;
+  filter: blur(196px);  
+}
+
+.telephone a {
+  position: absolute;
+  width: 143px;
+  height: 19px;
+  left: 832px;
+  top: 15px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #E4E5EA;
+  text-decoration: none;
+}
+
+
+ .telegram {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1022px;
+  top: 14px;
+}
+
+ .viber {
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  left: 1072px;
+  top: 14px;
+}
+
+ .whatsapp {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1122px;
+  top: 13px;
+}
+
+.slowLight{display: none;}
+/* Media queries */
+
+@media (max-width: 320px) {
+  .App {
+    width: 320px;
+    height: 1115px;
+  }
+  .tel {
+    display: none;
+  }
+  .telephone{
+    display: none;
+  }
+
+  .light {
+    left: 258px;
+    top: 107px;
+    display: none;
+  }
+  .redLight {
+    width: 211px;
+    height: 210px;
+    left: -55px;
+    top: 241px;
+  }
+
+  .redballsmall {
+    width: 43px;
+    height: 43px;
+    left: 29px;
+    top: 402px;
+  }
+
+  .purple {
+    width: 40px;
+    height: 40px;
+    left: 296px;
+    top: 236px;
+  }
+  .redball {
+    width: 43px;
+    height: 43px;
+    left: 29px;
+    top: 402px;
+  }
+
+
+.slowLight {
+  display: flex;
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  left: 258px;
+  top: 107px;
+  background: #833AB4;
+  opacity: 0.5;
+  filter: blur(196px);
+}
+
+.maskBig {
+  display: flex;
+  position: absolute;
+  width: 320px;
+  height: 445px;
+  left: 0px;
+  top: 0px;
+  background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%);
+  backdrop-filter: blur(7.5px);
+}
+
+.mask{
+  position: absolute;
+  width: 320px;
+  height: 445px;
+  left: 0px;
+  top: 0px;
+  background: url(./assets/noise.png);
+  mix-blend-mode: overlay;
+}
+}
+
